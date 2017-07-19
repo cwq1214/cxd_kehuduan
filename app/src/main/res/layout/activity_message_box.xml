@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    >
+    <!--<com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout-->
+    <!--android:id="@+id/refreshLayout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+    <!--<android.support.v7.widget.RecyclerView-->
+    <!--android:id="@+id/recyclerview"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>-->
+    <LinearLayout
+        android:divider="@drawable/divider"
+        android:showDividers="middle"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:background="@color/white"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout_sys">
+            <ImageView
+                android:layout_marginRight="15dp"
+                android:src="@mipmap/msg_icon_notice_n"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/img_sys" />
+
+            <TextView
+                android:layout_toRightOf="@id/img_sys"
+                android:text="订单通知"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/defaultTextStyle" />
+            <TextView
+                android:layout_alignParentRight="true"
+                android:text="2017-02-05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_sysDate" />
+            <TextView
+                android:layout_toRightOf="@id/img_sys"
+                android:layout_alignBottom="@id/img_sys"
+                android:text="123ead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:id="@+id/text_sysmsg" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:background="@color/white"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout_order">
+            <ImageView
+                android:layout_marginRight="15dp"
+                android:src="@mipmap/msg_icon_notice_n"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/img_order" />
+
+            <TextView
+                android:layout_toRightOf="@id/img_order"
+                android:text="订单通知"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/defaultTextStyle" />
+            <TextView
+                android:layout_alignParentRight="true"
+                android:text="2017-02-05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_orderDate" />
+            <TextView
+                android:layout_toRightOf="@id/img_order"
+                android:layout_alignBottom="@id/img_order"
+                android:text="123ead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:id="@+id/text_ordermsg" />
+        </RelativeLayout>
+
+    </LinearLayout>
+    <!--</com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout>-->
+</LinearLayout>

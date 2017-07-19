@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/okio-1.13.0_a74acb2ec5294410e600fe9ab25271ce3602e708.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.1.0_87737f102092f5fe35b24783f7e1d2d5d4a2d86c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/exploded-aar/cn.jiguang.sdk/jpush/3.0.5/jars/libs/jpush-android_v3.0.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d3dd93e279ba1e25d3f611a386a98ebf730cba73">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/jpush-android_v3.0.5_aba4d1c83e4bb1374fd9ec02ff6aa7675b7289c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/glide-3.7.0_5a71aae8e0e6f4569de518c5123763c719c8ec2b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/libs/BaiduLBS_Android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ef5720d028348a37aa235c68b1fe6033d4bb940f">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/BaiduLBS_Android_44de2c4ea169e9797769b0c85fdbb9aff132239a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/exploded-aar/com.zhy/okhttputils/2.6.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="155fef2600f48631a9e9665c0873743b6d24e324">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/com.zhy-okhttputils-2.6.2_7e89ba74ccc6f691502996a45084874aaeff0f27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/exploded-aar/jp.wasabeef/glide-transformations/2.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3305fe8fabbf56b45fa503d29d691bc84290ff23">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/jp.wasabeef-glide-transformations-2.0.2_eb4304f41011ad81fccb9374dd668fafee9a289e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.0_c97d9f17bce666c8485b94d1aa9d4fba666f827b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.4/695b63d702f505b9b916e02272e3b6381bade7f/gson-2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/gson-2.4_d25ad479ff01894a9aa4d3c7ee478c1c2e1d149d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/exploded-aar/com.lcodecorex/tkrefreshlayout/1.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ddfa3b26ad826d0d868160cf1ee4d58c60713983">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/com.lcodecorex-tkrefreshlayout-1.0.4_710b4cf493befd784037c94de438d2114a469025.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.1.0_3631b4c4d86ef9dbc6e9fd2a78953a75388ad216.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/exploded-aar/com.wang.avi/library/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4968500e276d051b8ed8135f1a0254120f6c600d">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/com.wang.avi-library-1.0.1_7480a646e9a520a421676c232c769878cac72696.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.0_33bb76705a2d280f652e5609222beb056711b4b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.0_34d97bb9c0b1eeabef728e28737e841d482322a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.0_b7635a744f889781f8c95a1ba31e5e49f80f932d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.3.0/73c49077166faa4c3c0059c5f583d1d7bd1475fe/core-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/core-3.3.0_0f60c883eb8ae59386c20e78f08893016b422530.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.0_0057ddd3ca577f43720e4c2050fe636f7e65c9cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.0_801c5533141cd258c2ece66d36e092302bd9e1d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/exploded-aar/com.orhanobut/hawk/2.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6d68a8fd0dd5d9a2b4e415a8411bf8b6aa50542f">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/com.orhanobut-hawk-2.0.1_362f6db8f8d84748d8dcf858e495145adbc924a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/exploded-aar/cn.jiguang.sdk/jpush/3.0.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3442a7f84a1738e2ca8857dc1059b437b7761e03">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/cn.jiguang.sdk-jpush-3.0.5_045c2c078f1e687783c703c387a061c1bbf8d517.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.5.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19f281a785ca0eb5f6799fc7bf7ca199a9ca1e8b">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.5.1_0286fd3b8eda263a26b29afd8493df6b05da13ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/libs/httpmime-4.1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ed8b5ee0167cb27dea55851259eb34b609f31df0">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/httpmime-4.1.2_67e6d7534942d87c0cc5ebf6a7457669844dd42b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.8.0/5a11f020cce2d11eb71ba916700600e18c4547e7/okhttp-3.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5a11f020cce2d11eb71ba916700600e18c4547e7">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/okhttp-3.8.0_af50b54290d0a6f08225fda6578b81590fb3aef1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.1.0_73d6ab430164e2f65f1a6356661a77cee24d3ef0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/exploded-aar/cn.jiguang.sdk/jcore/1.1.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7307428a730fbc49ea2db2030a73aee2818f050a">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/cn.jiguang.sdk-jcore-1.1.2_f8e7135842063e7db16544e9cdef6b992ada2510.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/exploded-aar/cn.jiguang.sdk/jcore/1.1.2/jars/libs/jcore-android_v1.1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bd9236d57409592b26609d13554b052dacf1c380">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/jcore-android_v1.1.2_484ab02ec1e558aaebd3e17ea7adedb7ff9d071e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c83fbde55c05bc186002d7ce3570d619c3d6ee1f">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/com.android.support-gridlayout-v7-25.1.0_fbf8f72053a3058c0b9c067bb9398d107ed1c1d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.0_73a45a95da99d7af232699445bba0ee97dc46168.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.0_dd1784ba07ee3ca0d1561d73000755e1ca15bf8a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/exploded-aar/cn.bingoogolapple/bga-banner/2.1.7/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9d8074399470c272f12c4d5cbab415dc64d277d9">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/cn.bingoogolapple-bga-banner-2.1.7_ced75f73f0e3e6dee010d1e77c80f0f6ddb6024b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/libs/alipaySingle-20170510.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="78241a93d61c4c13953ef7a02e63cf4dc5bea688">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/alipaySingle-20170510_13375ed02f6268beee08e090b7d47d5041f31a48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.0_359ff4dfcc2f4b1098c1293c994e4b4aa777b868.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/exploded-aar/com.facebook.conceal/conceal/1.1.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30cbc9b94a9a9e3c5d4252fde59e8db066460917">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/com.facebook.conceal-conceal-1.1.3_9bd337592900e3e8729bc09fbc4a359e856fc455.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.5.1/bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc/butterknife-annotations-8.5.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.5.1_35319c2cd4d7fc06973afd0eeb4c7ccd59a12947.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.5.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="77e3f210322743390ab44e667cc8988ba5d9433b">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/com.journeyapps-zxing-android-embedded-3.5.0_aef9f4ac908f955cef9aff986bd76f8ea9e71c10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.0_4312125189e8d818c2fc7d880790ee95ae2cde5e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.8.0/f765f004f3e201bd6ad0904266e605d7fb776d5/logging-interceptor-3.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0f765f004f3e201bd6ad0904266e605d7fb776d5">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/logging-interceptor-3.8.0_097df64bbd73febab83b40f6ba50189adf1b7977.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenweiqi/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/chenweiqi/AndroidStudioProjects/wuliu_kehuduan/BaseApp/app/build/intermediates/pre-dexed/debug/library-2.4.0_c7af565e002f0a78dd480e2f2d96c56bab1ebdea.jar" />
+    </item>
+
+</items>

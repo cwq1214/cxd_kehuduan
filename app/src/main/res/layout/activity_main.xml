@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_root">
+    <cn.bingoogolapple.bgabanner.BGABanner
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/view_banner">
+
+    </cn.bingoogolapple.bgabanner.BGABanner>
+
+    <android.support.v7.widget.GridLayout
+        app:columnCount="2"
+        app:rowCount="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="12dp"
+        android:id="@+id/layout_grid">
+        <RelativeLayout
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:background="@drawable/bg_white_solid_angle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:id="@+id/layout_one">
+            <ImageView
+                android:id="@+id/img_recive1"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/home_icon_jijian_n"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/img_recive1"
+                android:text="寄件"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_one"
+                android:layout_marginTop="6dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:background="@drawable/bg_white_solid_angle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:id="@+id/layout_order">
+            <ImageView
+                android:id="@+id/img_msgBox"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/home_icon_order_n"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/img_msgBox"
+                android:text="订单"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:background="@drawable/bg_white_solid_angle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:id="@+id/layout_msgBox">
+            <ImageView
+                android:id="@+id/img_personalCenter"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/home_icon_msg_n"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/img_personalCenter"
+                android:text="消息箱"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:background="@drawable/bg_white_solid_angle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:id="@+id/layout_personalCenter">
+            <ImageView
+                android:id="@+id/img_order"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/home_icon_mine_n"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/img_order"
+                android:text="个人中心"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp" />
+        </RelativeLayout>
+    </android.support.v7.widget.GridLayout>
+</LinearLayout>

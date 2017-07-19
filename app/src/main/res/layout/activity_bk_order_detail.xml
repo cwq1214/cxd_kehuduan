@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:divider="@drawable/divider"
+            android:showDividers="beginning|middle|end"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:padding="15dp"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="订单号："
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/defaultTextStyle" />
+                <TextView
+                    android:text="34364534"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/defaultTextStyle"
+                    android:id="@+id/text_orderNo" />
+            </LinearLayout>
+            <LinearLayout
+                android:background="@color/white"
+                android:padding="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="运单号："
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/defaultTextStyle" />
+                <TextView
+                    android:text="adadzxczxc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/defaultTextStyle"
+                    android:id="@+id/text_trackingNo" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp"/>
+            <TextView
+                android:text="合作人"
+                android:padding="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                style="@style/defaultTextStyle" />
+            <LinearLayout
+
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:id="@+id/layout_hezuoren">
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:padding="15dp"
+                    android:text="暂无合作人"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/defaultTextStyle"
+                    android:textColor="#919191" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp"/>
+            <TextView
+                android:text="派件信息"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="15dp"
+                style="@style/defaultTextStyle" />
+            <LinearLayout
+                android:padding="15dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="派件状态"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/defaultTextStyle" />
+                    <TextView
+                        android:text="派件中"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        style="@style/defaultTextStyle"
+                        android:textColor="@color/colorPrimary"
+                        android:id="@+id/text_state" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/layout_receive">
+                    <TextView
+                        android:text="收件人"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/defaultTextStyle" />
+                    <TextView
+                        android:text="？？？"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        style="@style/defaultTextStyle"
+                        android:id="@+id/text_signPerson" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/layout_failed">
+                    <TextView
+                        android:text="原因"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/defaultTextStyle" />
+                    <TextView
+                        android:textColor="#FF0000"
+                        android:text="？？？"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        style="@style/defaultTextStyle"
+                        android:id="@+id/text_failedReasno" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="15dp"
+                android:id="@+id/layout_progress">
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

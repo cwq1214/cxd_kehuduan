@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="15dp"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <TextView
+        style="@style/defaultTextStyle"
+        android:id="@+id/text_date"
+        android:text="时间"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:layout_alignParentRight="true"
+        style="@style/defaultTextStyle"
+        android:id="@+id/text_state"
+        android:text="状态"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="123"
+        android:layout_below="@id/text_date"
+        style="@style/defaultTextStyle"
+        android:id="@+id/text_toPerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp" />
+
+    <TextView
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/text_date"
+        style="@style/defaultTextStyle"
+        android:id="@+id/text_toAddress"
+        android:text="123"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

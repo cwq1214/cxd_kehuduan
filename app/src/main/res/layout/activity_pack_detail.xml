@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:divider="@drawable/divider"
+            android:showDividers="beginning|middle|end"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:padding="15dp"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="包号码："
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/defaultTextStyle" />
+                <TextView
+                    android:text="34364534"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/defaultTextStyle"
+                    android:id="@+id/text_packNo" />
+            </LinearLayout>
+            <LinearLayout
+                android:background="@color/white"
+                android:padding="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="区域编码："
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/defaultTextStyle" />
+                <TextView
+                    android:text="adadzxczxc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/defaultTextStyle"
+                    android:id="@+id/text_areaNo" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp"/>
+            <RelativeLayout
+                android:padding="15dp"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/layout_orderList">
+                <TextView
+                    android:text="快件列表"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/defaultTextStyle" />
+                <ImageView
+                    android:src="@mipmap/arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <LinearLayout
+                android:padding="15dp"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginBottom="15dp"
+                    android:text="备注"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/defaultTextStyle" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/defaultTextStyle"
+                    android:id="@+id/text_marks" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="15dp"
+                android:id="@+id/layout_progress">
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:text="+ 添加备注"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        style="@style/defaultBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_done" />
+</LinearLayout>
