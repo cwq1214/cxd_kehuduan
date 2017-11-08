@@ -71,19 +71,40 @@
             android:layout_height="wrap_content"
             android:layout_margin="12dp"
             android:id="@+id/layout_msgBox">
-            <ImageView
-                android:id="@+id/img_personalCenter"
+
+
+            <FrameLayout
+                android:id="@+id/layout_msgbox"
                 android:layout_centerInParent="true"
-                android:src="@mipmap/home_icon_msg_n"
                 android:layout_width="50dp"
-                android:layout_height="50dp" />
+                android:layout_height="50dp">
+                <ImageView
+                    android:id="@+id/img_personalCenter"
+                    android:src="@mipmap/home_icon_msg_n"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+                <TextView
+                    android:id="@+id/text_msgCount"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="false"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="right"
+                    android:background="@drawable/bg_red_pop"
+                    android:gravity="center"
+                    android:text="99+"
+                    android:textColor="@color/white"
+                    android:textSize="6sp" />
+            </FrameLayout>
+
             <TextView
+                android:layout_below="@id/layout_msgbox"
                 android:layout_centerHorizontal="true"
-                android:layout_below="@id/img_personalCenter"
                 android:text="消息箱"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6dp" />
+
         </RelativeLayout>
         <RelativeLayout
             app:layout_rowWeight="1"

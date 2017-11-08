@@ -25,12 +25,12 @@
             android:id="@+id/text_company"
             android:textColor="@color/colorPrimary" />
     </RelativeLayout>
-    <com.jyt.baseapp.view.widget.RadioGroupEx
+    <com.cxd.khd.view.widget.RadioGroupEx
         android:padding="10dp"
         android:id="@+id/group_company"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white"></com.jyt.baseapp.view.widget.RadioGroupEx>
+        android:background="@color/white"></com.cxd.khd.view.widget.RadioGroupEx>
     <RelativeLayout
         android:background="@color/white"
         android:padding="15dp"

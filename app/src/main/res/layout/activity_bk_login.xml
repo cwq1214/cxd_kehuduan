@@ -38,6 +38,7 @@
             android:layout_height="wrap_content"
             style="@style/defaultTextStyle" />
         <EditText
+            android:inputType="textPassword"
             android:hint="请输入您的登录密码"
             android:background="@null"
             android:layout_width="match_parent"

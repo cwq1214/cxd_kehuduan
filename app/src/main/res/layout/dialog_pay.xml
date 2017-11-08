@@ -46,6 +46,7 @@
             style="@style/defaultTextStyle" />
 
         <CheckBox
+            android:clickable="false"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:background="@drawable/sel_check_box"
@@ -75,6 +76,7 @@
             style="@style/defaultTextStyle" />
 
         <CheckBox
+            android:clickable="false"
             android:layout_centerVertical="true"
             android:layout_alignParentRight="true"
             android:background="@drawable/sel_check_box"

@@ -46,8 +46,8 @@
 
         </RadioGroup>
     </RelativeLayout>
-    <com.jyt.baseapp.view.widget.NoScrollViewPager
+    <com.cxd.khd.view.widget.NoScrollViewPager
         android:id="@+id/viewPager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></com.jyt.baseapp.view.widget.NoScrollViewPager>
+        android:layout_height="match_parent"></com.cxd.khd.view.widget.NoScrollViewPager>
 </LinearLayout>

@@ -129,6 +129,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:layout_marginLeft="120dp"
+                        android:autoLink="phone"
                         android:text="1214132453" />
                 </RelativeLayout>
                 <TextView
@@ -211,6 +212,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:layout_marginLeft="120dp"
+                        android:autoLink="phone"
                         android:text="1214132453" />
                 </RelativeLayout>
 

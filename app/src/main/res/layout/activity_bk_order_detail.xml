@@ -23,12 +23,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     style="@style/defaultTextStyle" />
+
                 <TextView
-                    android:text="34364534"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:id="@+id/text_orderNo"
                     style="@style/defaultTextStyle"
-                    android:id="@+id/text_orderNo" />
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
             </LinearLayout>
             <LinearLayout
                 android:background="@color/white"
@@ -40,12 +40,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     style="@style/defaultTextStyle" />
+
                 <TextView
-                    android:text="adadzxczxc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:id="@+id/text_trackingNo"
                     style="@style/defaultTextStyle"
-                    android:id="@+id/text_trackingNo" />
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
             </LinearLayout>
             <View
                 android:layout_width="match_parent"

@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.jyt.baseapp">
+    package="com.cxd.khd">
 
 
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
@@ -52,7 +52,7 @@
         android:icon="@mipmap/icon_144"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:name=".App"
+        android:name="App"
         android:theme="@style/AppTheme">
 
         <!--百度地图 key-->
@@ -69,26 +69,44 @@
         </activity>
         <activity android:name=".view.activity.GuidePageActivity" android:screenOrientation="portrait" android:label="引导页"></activity>
         <activity android:name=".view.activity.MainActivity" android:screenOrientation="portrait"  android:launchMode="singleTask"></activity>
-        <activity android:name=".view.activity.SKSendActivity" android:screenOrientation="portrait" android:label="寄件"></activity>
-        <activity android:name=".view.activity.SKOrderListActivity" android:screenOrientation="portrait" android:label="订单列表"></activity>
-        <activity android:name=".view.activity.AddressListActivity" android:screenOrientation="portrait" android:label="地址列表"></activity>
-        <activity android:name=".view.activity.EditAddressActivity" android:screenOrientation="portrait" android:label="编辑地址"></activity>
-        <activity android:name=".view.activity.SelLocationActivity" android:screenOrientation="portrait" android:label="选址地址"></activity>
-        <activity android:name=".view.activity.SearchLocationActivity" android:screenOrientation="portrait" android:label="选址地址"></activity>
-        <activity android:name=".view.activity.OrderDetailActivity"  android:screenOrientation="portrait" android:label="快递信息"></activity>
-        <activity android:name=".view.activity.GoodsDetailActivity"  android:screenOrientation="portrait" android:label="物品信息"></activity>
-        <activity android:name=".view.activity.SKPersonalCenterActivity" android:screenOrientation="portrait" android:label="个人中心" ></activity>
-        <activity android:name=".view.activity.ExpressCompanyListActivity" android:screenOrientation="portrait" android:label="快递公司"></activity>
-        <activity android:name=".view.activity.MessageBoxActivity" android:screenOrientation="portrait" android:label="消息箱"></activity>
-        <activity android:name=".view.activity.TrackOrderActivity" android:screenOrientation="portrait" android:label="订单跟踪"></activity>
-        <activity android:name=".view.activity.MessageListActivity" android:screenOrientation="portrait" android:label="消息列表"></activity>
-        <activity android:name=".view.activity.BKLoginActivity" android:screenOrientation="portrait" android:label="大客户登录"></activity>
-        <activity android:name=".view.activity.BKSendOrderActivity" android:screenOrientation="portrait" android:label="批量下单" android:windowSoftInputMode="adjustPan"></activity>
-        <activity android:name=".view.activity.PackDetailActivity" android:screenOrientation="portrait" android:label="包详情"></activity>
-        <activity android:name=".view.activity.BKOrderListActivity" android:screenOrientation="portrait" android:label="订单列表" ></activity>
-        <activity android:name=".view.activity.BKOrderDetailActivity"  android:screenOrientation="portrait" android:label="订单详情" ></activity>
-        <activity android:name=".view.activity.BKPackOrderActivity" android:screenOrientation="portrait" android:label="快件列表"></activity>
-        <activity android:name=".view.activity.PayActivity" android:screenOrientation="portrait" android:label="支付"></activity>
+        <activity android:name="com.cxd.khd.view.activity.SKSendActivity" android:screenOrientation="portrait" android:label="寄件"></activity>
+        <activity android:name="com.cxd.khd.view.activity.SKOrderListActivity" android:screenOrientation="portrait" android:label="订单列表"></activity>
+        <activity android:name="com.cxd.khd.view.activity.AddressListActivity" android:screenOrientation="portrait" android:label="地址列表"></activity>
+        <activity android:name="com.cxd.khd.view.activity.EditAddressActivity" android:screenOrientation="portrait" android:label="编辑地址"></activity>
+        <activity android:name="com.cxd.khd.view.activity.SelLocationActivity" android:screenOrientation="portrait" android:label="选址地址"></activity>
+        <activity android:name="com.cxd.khd.view.activity.SearchLocationActivity" android:screenOrientation="portrait" android:label="选址地址"></activity>
+        <activity android:name="com.cxd.khd.view.activity.OrderDetailActivity"  android:screenOrientation="portrait" android:label="快递信息"></activity>
+        <activity android:name="com.cxd.khd.view.activity.GoodsDetailActivity"  android:screenOrientation="portrait" android:label="物品信息"></activity>
+        <activity android:name="com.cxd.khd.view.activity.SKPersonalCenterActivity" android:screenOrientation="portrait" android:label="个人中心" ></activity>
+        <activity android:name="com.cxd.khd.view.activity.ExpressCompanyListActivity" android:screenOrientation="portrait" android:label="快递公司"></activity>
+        <activity android:name="com.cxd.khd.view.activity.MessageBoxActivity" android:screenOrientation="portrait" android:label="消息箱"></activity>
+        <activity android:name="com.cxd.khd.view.activity.TrackOrderActivity" android:screenOrientation="portrait" android:label="订单跟踪"></activity>
+        <activity android:name="com.cxd.khd.view.activity.MessageListActivity" android:screenOrientation="portrait" android:label="消息列表"></activity>
+        <activity android:name="com.cxd.khd.view.activity.BKLoginActivity" android:screenOrientation="portrait" android:label="大客户登录"></activity>
+        <activity android:name="com.cxd.khd.view.activity.BKSendOrderActivity" android:screenOrientation="portrait" android:label="批量下单" android:windowSoftInputMode="adjustPan"></activity>
+        <activity android:name="com.cxd.khd.view.activity.PackDetailActivity" android:screenOrientation="portrait" android:label="包详情"></activity>
+        <activity android:name="com.cxd.khd.view.activity.BKOrderListActivity" android:screenOrientation="portrait" android:label="订单列表" ></activity>
+        <activity android:name="com.cxd.khd.view.activity.BKOrderDetailActivity"  android:screenOrientation="portrait" android:label="订单详情" ></activity>
+        <activity android:name="com.cxd.khd.view.activity.BKPackOrderActivity" android:screenOrientation="portrait" android:label="快件列表"></activity>
+        <activity android:name="com.cxd.khd.view.activity.SelLocationActivity2" android:screenOrientation="portrait" android:label="定位"></activity>
+
+        <activity android:name="com.cxd.khd.view.activity.PayActivity" android:screenOrientation="portrait" android:label="支付">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="wxb00ba44030e339b8"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="wxb00ba44030e339b8"/>
+            </intent-filter>
+        </activity>
         <!--百度地图 定位-->
         <service
             android:name="com.baidu.location.f"

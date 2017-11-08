@@ -7,11 +7,31 @@
     android:focusableInTouchMode="true"
     android:focusable="true"
     >
+
+    <EditText
+        android:id="@+id/input_autoText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="扫描枪自动识别输入框"
+        android:textSize="14dp" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp">
     <com.journeyapps.barcodescanner.DecoratedBarcodeView
         android:id="@+id/scannerView"
         android:layout_width="match_parent"
         android:layout_height="170dp"
         ></com.journeyapps.barcodescanner.DecoratedBarcodeView>
+
+        <TextView
+            android:id="@+id/switchOnOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="相机开关"
+            android:textColor="@color/white" />
+    </FrameLayout>
+
     <View
         android:layout_width="match_parent"
         android:layout_height="6dp"/>
